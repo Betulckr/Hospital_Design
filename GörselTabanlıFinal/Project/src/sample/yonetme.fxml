@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1550.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane layoutX="-2.0" layoutY="-1.0" prefHeight="800.0" prefWidth="1550.0">
+         <children>
+            <ImageView fitHeight="41.0" fitWidth="1550.0">
+               <image>
+                  <Image url="@../Image/orta%20turkuaz.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="41.0" fitWidth="1550.0" layoutY="759.0">
+               <image>
+                  <Image url="@../Image/orta%20turkuaz.jpg" />
+               </image>
+            </ImageView>
+            <MenuBar layoutY="41.0" prefHeight="26.0" prefWidth="797.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="Genel İşlemler">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Ayakta Tedavi Gören Hasta" />
+                        <MenuItem mnemonicParsing="false" text="Yatan Hasta" />
+                        <MenuItem mnemonicParsing="false" text="İlaç" />
+                        <MenuItem mnemonicParsing="false" text="Malzeme" />
+                        <MenuItem mnemonicParsing="false" text="Laboratuvar" />
+                        <Menu mnemonicParsing="false" text="Tıbbi Görüntüleme">
+                          <items>
+                            <MenuItem mnemonicParsing="false" text="Randevu Bilgi" />
+                              <MenuItem mnemonicParsing="false" text="Randevu - Kabul" />
+                              <MenuItem mnemonicParsing="false" text="İnceleme" />
+                          </items>
+                        </Menu>
+                        <MenuItem mnemonicParsing="false" text="Ayarlar" />
+                        <MenuItem mnemonicParsing="false" text="Kan Bankası" />
+                        <MenuItem mnemonicParsing="false" text="Patoji" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Özel İşlemler" />
+                <Menu mnemonicParsing="false" text="Tanımlamalar" />
+                  <Menu mnemonicParsing="false" text="Sağlık Net" />
+                  <Menu mnemonicParsing="false" text="Tahakkuk " />
+                  <Menu mnemonicParsing="false" text="Stok Raporları" />
+                  <Menu mnemonicParsing="false" text="İstatistik Raporları" />
+                  <Menu mnemonicParsing="false" text="Sistem Yönetimi" />
+                  <Menu mnemonicParsing="false" text="Yardım" />
+              </menus>
+            </MenuBar>
+            <ImageView fitHeight="283.0" fitWidth="701.0" layoutX="849.0" layoutY="41.0">
+               <image>
+                  <Image url="@../Image/kalpp.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="111.0" layoutX="738.0" layoutY="67.0" rotate="-180.0">
+               <image>
+                  <Image url="@../Image/çiçek3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="111.0" layoutX="738.0" layoutY="224.0" scaleX="-1.0">
+               <image>
+                  <Image url="@../Image/çiçek3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="111.0" layoutX="738.0" layoutY="424.0" rotate="180.0">
+               <image>
+                  <Image url="@../Image/çiçek3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="111.0" layoutX="738.0" layoutY="559.0" scaleX="-1.0">
+               <image>
+                  <Image url="@../Image/çiçek3.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="942.0" layoutY="336.0" prefHeight="75.0" prefWidth="516.0" text="Sevgili Çalışanımız yönetim kısmında sana çok yük düşüyor bu nedenle sağlığına ve &#10;psikolojine ne kadar değer verdiğimizi bilmeni istiyoruz günde sadece birkaç dakikanı ayırarak bu &#10;olumlamalara vakit ayırmanı isteriz. &#10;Sağlıcakla ve huzurla kalman dileğiyle&#10;" />
+            <Label layoutX="942.0" layoutY="411.0" prefHeight="248.0" prefWidth="516.0" text="1.Her zaman bedenim için sağlıklı&#10; seçimler yapıyorum.&#10;2.Sağlıkla yaşamanın bana getireceği &#10;nimetlere kendimi&#10;açıyorum.&#10;3.Şuanda gerçekleşen şifayı  kalbim sevgiyle&#10;taşarak kabul ediyorum.&#10;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="103.0" fitWidth="192.0" layoutX="1362.0" layoutY="659.0">
+               <image>
+                  <Image url="@../Image/papatya.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="103.0" fitWidth="200.0" layoutX="1200.0" layoutY="659.0">
+               <image>
+                  <Image url="@../Image/papatya.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="103.0" fitWidth="200.0" layoutX="849.0" layoutY="659.0">
+               <image>
+                  <Image url="@../Image/papatya.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="103.0" fitWidth="200.0" layoutX="1023.0" layoutY="659.0">
+               <image>
+                  <Image url="@../Image/papatya.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="111.0" layoutY="67.0" rotate="-180.0" scaleX="-1.0">
+               <image>
+                  <Image url="@../Image/çiçek3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="111.0" layoutY="224.0">
+               <image>
+                  <Image url="@../Image/çiçek3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="111.0" layoutY="424.0" rotate="180.0" scaleX="-1.0">
+               <image>
+                  <Image url="@../Image/çiçek3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="200.0" fitWidth="111.0" layoutY="559.0">
+               <image>
+                  <Image url="@../Image/çiçek3.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="exit" layoutX="797.0" layoutY="42.0" mnemonicParsing="false" onAction="#handlerexit" prefHeight="25.0" prefWidth="54.0" style="-fx-background-color: #e3e3e3;" text="Çıkış" />
+         </children></Pane>
+   </children>
+</AnchorPane>
